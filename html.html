@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>page</title>
+   <style type="text/css">
+   body { margin: 0; }
+   #sidebar, #content { position: absolute; } 
+   #sidebar, #content { overflow: auto; padding: 10px; }
+   #header {
+    height: 80px; /* Высота слоя */
+    background: #FEDFC0; border-bottom: 2px solid #7B5427;
+   }
+   #header h1 { padding: 20px; margin: 0; }
+   #sidebar { 
+    width: 150px; background: #ECF5E4; border-right: 1px solid #231F20;
+    top: 82px; /* Расстояние от верхнего края */ 
+    bottom: 0; /* Расстояние снизу  */
+   }
+   #content {
+    top: 82px; /* Расстояние от верхнего края */
+    left: 170px; /* Расстояние от левого края */ 
+    bottom: 0; right: 0;
+   }
+  </style>
+ </head>
+ <body>
+  <div id="header"><h1>head</h1></div>
+  <div id="sidebar">
+   <p>test1</p><p>test5</p>
+   <p>test2</p><p>test6</p>
+   <p>test3</p><p>test7</p>
+   <p>test4</p>
+  </div>
+  <div id="content">
+   <h2>test1.1</h2>
+   <p>test1.2</p> 
+   <p>test1.3</p>
+   <p>test1.4</p>
+  </div>
+ </body>
+</html>
